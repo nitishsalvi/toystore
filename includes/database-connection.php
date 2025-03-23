@@ -1,13 +1,13 @@
 <?php                                             // Opening PHP tag
 
 $type     = 'mysql';                             // Type of database
-$server   = 'yourIPAddress';                    // Server the database is on
-$db       = 'yourcPanelUsername_toystore';     // Name of the database
+$server   = '192.185.2.183';                    // Server the database is on
+$db       = 'nitishsa_toystore';     // Name of the database
 $port     = '3306';                           // Port is usually 3306 in Hostgator
 $charset  = 'utf8mb4';                       // UTF-8 encoding using 4 bytes of data per char
 
-$username = 'yourcPanelUsername_user';     // Enter YOUR cPanel username and user here
-$password = 'yourUserPassword';           // Enter YOUR user password here
+$username = 'nitishsa_admin';     // Enter YOUR cPanel username and user here
+$password = 'Rhody2025';           // Enter YOUR user password here
 
 
 
@@ -48,4 +48,4 @@ function pdo(PDO $pdo, string $sql, array $arguments = null)
         return $statement;               // Return PDOStatement object
     }
                                           
-// Closing PHP tag  ?>                                             
+// Closing PHP tag  ?>
